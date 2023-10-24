@@ -1,0 +1,33 @@
+
+
+
+
+
+.grey-colored-text {
+    color: #7B7B7B;
+}
+
+.inner-link {
+    color: #4EA0FF;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main-header {
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+}
+
+#logo {
+    height: 60px;
+}
