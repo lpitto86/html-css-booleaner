@@ -3,8 +3,26 @@
 
 
 
+TUTTI I SELETTORI {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    padding-left: 18px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+
 .grey-colored-text {
     color: #7B7B7B;
+}
+
+.white-colored-text {
+    color: white;
 }
 
 .inner-link {
@@ -16,25 +34,22 @@
     background-color: yellow;
 }
 
-
-
-
-
-
-
-
-
+.zero-margin {
+    margin: 0;
+}
 
 #main-header {
     background-color: #4EA0FF;
-    background-image: url(../img/pattern.png);
+    background-image: url('../img/pattern.png');
 }
 
 #logo {
     height: 60px;
 }
 
-
+h1 {
+    margin-bottom: 0;
+}
 
 .main-table-thead {
     text-align: left;
@@ -48,6 +63,7 @@
 
 #collapsed-table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 .width-25-cell {
@@ -56,4 +72,28 @@
 
 .width-50-cell {
     width: 50%;
+}
+
+.related-article-container {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2px;
+}
+
+#monitor-container {
+    height: 200px;
+    width: 300px;
+    background-image: url('../img/monitor.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#graph-container {
+    height: 200px;
+    width: 300px;
+    background-image: url('../img/graph.jpg');
+    background-size: cover;
+    background-position: center;
 }
