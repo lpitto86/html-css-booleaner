@@ -12,7 +12,9 @@
     text-decoration: none;
 }
 
-
+.highlighted {
+    background-color: yellow;
+}
 
 
 
@@ -30,4 +32,28 @@
 
 #logo {
     height: 60px;
+}
+
+
+
+.main-table-thead {
+    text-align: left;
+    background-color: #4EA0FF;
+    color: white;
+}
+
+.blue-table-row {
+    background-color: #B1E5F2;
+}
+
+#collapsed-table {
+    border-collapse: collapse;
+}
+
+.width-25-cell {
+    width: 25%;
+}
+
+.width-50-cell {
+    width: 50%;
 }
